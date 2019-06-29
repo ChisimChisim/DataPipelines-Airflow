@@ -14,7 +14,7 @@ class LoadDimensionOperator(BaseOperator):
                  redshift_conn_id="",
                  sql="",
                  table="",
-                 Loding_mode="",   #"append-only" or  "delete-load"
+                 loding_mode="",   #"append-only" or  "delete-load"
                  *args, **kwargs):
 
         super(LoadDimensionOperator, self).__init__(*args, **kwargs)
